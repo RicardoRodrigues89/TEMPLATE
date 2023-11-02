@@ -3,3 +3,52 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body, html {
+    height: 100%;
+}
+
+.paralaxe01 {
+    background-image: url(imagens/bg-img-01.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralaxe02 {
+    background-image: url(imagens/bg-img-02.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralaxe03 {
+    background-image: url(imagens/bg-img-03.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralaxe04 {
+    background-image: url(imagens/bg-img-04.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralaxe05 {
+    background-image: url(imagens/bg-img-05.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
