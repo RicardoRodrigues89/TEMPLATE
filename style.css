@@ -9,12 +9,41 @@ body, html {
 }
 
 .paralaxe01 {
+    display: flex;
+    align-content: center;
     background-image: url(imagens/bg-img-01.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.caixa__texto--individual {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    float: right;
+    width: 100%;
+    margin: auto;
+}
+
+.caixa__texto {
+    max-width: 800px;
+    padding: 150px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.caixa__texto > p {
+    font-size: 19px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 .paralaxe02 {
