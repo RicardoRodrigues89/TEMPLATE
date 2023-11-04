@@ -82,17 +82,44 @@ h1 {
     margin-left: 20px;
     padding: 40px;
     width: 340px;
-    height: 420px;
     background-color: #ffffffc4;
 }
 
 .paralaxe03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url(imagens/bg-img-03.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.caixa__central--botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.caixa__titulo {
+    margin-bottom: 8px;
+    padding: 20px;
+    width: 425px;
+    height: 116px;
+    font-size: 32px;
+    background-color: #ffffffc4;
+}
+
+.caixa__paragrafo {
+    padding: 20px;
+    width: 425px;
+    height: 211px;
+    font-size: 19px;
+    background-color: #ffffffc4;
 }
 
 .paralaxe04 {
