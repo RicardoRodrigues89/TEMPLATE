@@ -123,6 +123,9 @@ h1 {
 }
 
 .paralaxe04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url(imagens/bg-img-04.jpg);
     height: 100%;
     background-attachment: fixed;
@@ -131,7 +134,36 @@ h1 {
     background-size: cover;
 }
 
+.caixa__principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.caixa__principal > article {
+    height: 375px;
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #ffffffc4;
+
+}
+
+.titulo__verde {
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 28px;
+    color: green;
+}
+
+.ajuste__paragrafo {
+    margin-bottom: 16px;
+    font-size: 19px;
+}
+
 .paralaxe05 {
+    display: flex;
     background-image: url(imagens/bg-img-05.jpg);
     height: 100%;
     background-attachment: fixed;
