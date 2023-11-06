@@ -2,6 +2,11 @@ body, html {
     height: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .paralaxe01 {
     display: flex;
     align-content: center;
@@ -252,3 +257,4 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
