@@ -46,14 +46,21 @@ h1 {
 }
 
 .caixa__texto > p {
+    margin-bottom: 20px;
     font-size: 19px;
     color: white;
     font-weight: 400;
 }
 
 .explorar {
+    margin-top: 20px;
     width: 225px;
     height: 58px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    color: white;
+    background-color: #C66666;
 }
 
 a {
