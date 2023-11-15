@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="script.js" defer></script>
+
 </head>
 <body>
     <div class="paralaxe01">
@@ -30,7 +33,7 @@
 
             <article class="coluna__direita--botao">
                 <h2>Coluna direita</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a odio molestias, corrupti illum quod commodi ut non qui temporibus alias deserunt id quo quia numquam dolores. Aliquam, at.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a odio molestias, corrupti illum quod commodi ut non qui temporibus alias deserunt id quo quia numquam dolores.</p>
                 <a href="#pagina3"><button class="detalhes">Detalhes...</button></a>
             </article>       
         </section>
@@ -49,56 +52,40 @@
     <div id="pagina4" class="paralaxe04">
         <section class="caixa__principal">
             <article>
-                <h2 class="titulo__verde">Titulo1</h2>
+                <h2 class="titulo__verde">Nunc sagittis</h2>
                 <p class="ajuste__paragrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo fugit possimus iste! Doloremque impedit aliquam maxime totam enim a repellat reprehenderit possimus, iusto, nemo fugit molestiae mollitia beatae, laudantium ratione.</p>
             </article>
             <article>
-                <h2 class="titulo__verde">Titulo2</h2>
+                <h2 class="titulo__verde">Duis euismod</h2>
                 <p class="ajuste__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eum! Animi fuga cumque, officiis aliquam repudiandae, perspiciatis adipisci, amet harum error praesentium blanditiis eaque nihil ex quia officia perferendis sit!</p>
             </article>
             <article>
-                <h2 class="titulo__verde">Titulo3</h2>
+                <h2 class="titulo__verde">Ipsum vitae mattis</h2>
                 <p class="ajuste__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolorum esse quisquam eum reiciendis odio vitae voluptatibus nisi doloribus possimus quae recusandae nulla eligendi, soluta blanditiis. Quaerat inventore ex numquam.</p>
             </article>
         </section>
     </div>
     <div class="paralaxe05">
-        <div class="conteiner">
-            <div class="carrossel">
-                <input type="radio" name="slide" id="slide1" checked>
-                <input type="radio" name="slide" id="slide2">
-                <input type="radio" name="slide" id="slide3">
-                <input type="radio" name="slide" id="slide4">
-                <input type="radio" name="slide" id="slide5">
-                <input type="radio" name="slide" id="slide6">
 
-                <div class="slide s1">
-                    <img src="imagens/carrossel/gallery-img-01-tn.jpg" alt="Dois cervos">
-                </div>
-                <div class="slide">
-                    <img src="imagens/carrossel/gallery-img-02-tn.jpg" alt="Flor Branca">
-                </div>
-                <div class="slide">
-                    <img src="imagens/carrossel/gallery-img-03-tn.jpg" alt="Campo e montanhas com neve ao fundo">
-                </div>
-                <div class="slide">
-                    <img src="imagens/carrossel/gallery-img-04-tn.jpg" alt="Família no lago">
-                </div>
-                <div class="slide">
-                    <img src="imagens/carrossel/gallery-img-05-tn.jpg" alt="Mulher fazendo yoga com mar ao fundo">
-                </div>
-                <div class="slide">
-                    <img src="imagens/carrossel/gallery-img-06-tn.jpg" alt="Suco verde com frutas decorando o topo do copo">
-                </div>
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="imagens/carrossel/gallery-img-01-tn.jpg" alt="Dois cervos"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel/gallery-img-02-tn.jpg" alt="Flores brancas"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel/gallery-img-03-tn.jpg" alt="Deserto com monhas de neve ao fundo"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel/gallery-img-04-tn.jpg" alt="Família no lago"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel/gallery-img-05-tn.jpg" alt="Mulher fazendo Yoga"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel/gallery-img-06-tn.jpg" alt="Suco verde decorado com frutas"></div>
+                
             </div>
-        </div>
-        <div class="navegador__carrossel">
-            <label class="radio" for="slide1"></label>
-            <label class="radio" for="slide2"></label>
-            <label class="radio" for="slide3"></label>
-            <label class="radio" for="slide4"></label>
-            <label class="radio" for="slide5"></label>
-            <label class="radio" for="slide6"></label>
+
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+  
         </div>
     </div>
     <div class="paralaxe06">
@@ -130,6 +117,9 @@
         <div class="footer">
             <p>Copyright 2018 Your Company. Designed by</p>
         </div>
-    </div>    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 </html>

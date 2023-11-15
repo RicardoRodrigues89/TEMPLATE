@@ -63,8 +63,8 @@ h1 {
     background-color: #C66666;
 }
 
-a {
-    text-decoration: none;
+button {
+    cursor: pointer;
 }
 
 .paralaxe02 {
@@ -105,7 +105,7 @@ a {
 .coluna__direita--botao {
     margin-right: auto;
     margin-left: 20px;
-    padding: 40px;
+    padding: 40px 40px 10px 40px;
     width: 340px;
     background-color: #ffffffc4;
 }
@@ -135,9 +135,10 @@ a {
 
 .caixa__central--botao {
     display: flex;
+    padding-left: 600px;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .caixa__titulo {
@@ -221,74 +222,13 @@ a {
     background-size: cover;
 }
 
-.conteiner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+.swiper {
+    width: 990px;
+    height: 270px;
 }
 
-.carrossel {
-    display: flex;
-    width: 1050px;
-    overflow: hidden;
-}
-
-#slide1:checked ~ .s1 {
-   margin-left: 0; 
-}
-
-#slide2:checked ~ .s1 {
-    margin-left: -25%;
-}
-
-#slide3:checked ~ .s1 {
-    margin-left: -50%;
-}
-
-#slide4:checked ~ .s1 {
-    margin-left: -75%;
-}
-
-#slide5:checked ~ .s1 {
-    margin-left: -100%;
-}
-
-#slide6:checked ~ .s1 {
-    margin-left: -125%;
-}
-
-input{
-    display: none;
-}
-
-.slide {
-    display: flex;
-}
-
-.slide > img {
-    padding: 0px 10px;
-}
-
-.navegador__carrossel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.radio {
-    margin: 5px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    background-color: white;
-    align-items: center;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.radio:hover {
-    background-color: dodgerblue;
+.swiper-slide > img {
+    margin: 0px 10px;
 }
 
 .paralaxe06 {
