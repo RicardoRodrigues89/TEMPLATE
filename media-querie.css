@@ -18,3 +18,21 @@
 
 }
 
+@media screen and (max-width: 760px) {
+
+    .caixa__texto {
+        margin-left: 100px;
+    }
+
+    .coluna__esquerda {
+        margin-right: 0px;
+    }
+
+    .coluna__direita--botao {
+        margin-left: 0px;
+    }
+
+    .caixa__principal > article {
+        margin: 0px;
+    }
+}

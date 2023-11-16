@@ -81,7 +81,9 @@ button {
 
 .caixa__central {
     display: flex;
-    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
 }
 
 .caixa__central h2 {
@@ -94,7 +96,7 @@ button {
 }
 
 .coluna__esquerda {
-    margin-left: auto;
+    
     margin-right: 20px;
     padding: 40px;
     width: 340px;
@@ -103,7 +105,7 @@ button {
 }
 
 .coluna__direita--botao {
-    margin-right: auto;
+    
     margin-left: 20px;
     padding: 40px 40px 10px 40px;
     width: 340px;
