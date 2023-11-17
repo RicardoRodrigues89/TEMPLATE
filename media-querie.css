@@ -9,11 +9,13 @@
     }
 
     .swiper {
-       
+       width: 80%;
     }
     
     .swiper-slide > img {
-        
+       margin: 0px;
+       width: 200px;
+       height: 200px;
     }
 
 }
@@ -35,4 +37,10 @@
     .caixa__principal > article {
         margin: 0px;
     }
+
+    .swiper-slide > img {
+        margin: 0px;
+        width: 160px;
+        height: 160px;
+     }
 }
