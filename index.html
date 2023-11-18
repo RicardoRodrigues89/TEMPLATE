@@ -85,39 +85,41 @@
             
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-
-  
+ 
         </div>
     </div>
-    <div class="paralaxe06">
-        <div class="coluna-esquerda">
-            <form> 
-              <h2>Contact Us</h2>
-                <div class="input-box">
-                    <input type="text" name="name" id="name" required placeholder="Name">
+    <div class="paralaxe06">       
+        <div class="formulario">
+            <div class="formulario__flex">
+                <form>
+                    <h2>Contate-nos</h2>
+                    <div class="campo">
+                        <input type="text" name="name" id="iname" placeholder="Nome" required>
+                    </div>
+                    <div class="campo">
+                        <input type="email" name="contato_email" id="iemail" placeholder="Email" required>
+                    </div>
+                    <div class="mensagem">
+                        <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="entrar">Entrar</button>
+                </form>
+                <div class="coluna__texto">
+                    <article>
+                        <p class="direita__texto">Please visit <a href="https://www.tooplate.com/contact" target="_blank">our contact page</a> for more information about simple contact form to send email to your inbox. Maecenas condimentum tincidunt leo. Paesent scelerisque erat placerat tempus laoreet.</p>
+                    </article>
+                    <article>
+                        <p class="endereco">Nosso endereço</p>
+                    </article>
+                    <article>
+                        <p class="direita__texto">440-660 Proin mauris enim, dignissim sit amet ligula id, finibus tempus erat 10200</p>
+                    </article>
                 </div>
-                <div class="input-box">
-                    <input type="email" name="email" id="email" required placeholder="Email">
-                </div>
-                <div class="input-box">
-                    <textarea id="message" name="message" required placeholder="Message"></textarea>
-                </div>
-            </form>
+            </div>
         </div>
-        <div class="coluna-direita">
-            <article>
-                <p class="direita__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam ratione excepturi modi unde quis natus? Nulla neque optio tenetur, exercitationem, ea expedita, error quas ullam maxime fuga quasi eaque!</p>
-            </article>
-            <article>
-                <p class="direita__texto"><strong>Our Address</strong></p>
-            </article>
-            <article>
-                <p class="direita__texto">440-660 Proin mauris enim, dignissim sit amet ligula id, finibus tempus erat 10200</p>
-            </article> 
-        </div>
-        <div class="footer">
+        <footer>
             <p>Copyright 2018 Your Company. Designed by</p>
-        </div>
+        </footer>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

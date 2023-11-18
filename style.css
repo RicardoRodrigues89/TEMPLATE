@@ -243,12 +243,37 @@ button {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.formulario {
+    display: flex;
+    float: right;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-.footer {
+.formulario__flex {
+    display: flex;
+}
+
+form {
+    width: 340px;
+    height: 356px;
+}
+
+.coluna__texto {
+    width: 670px;
+    height: 272px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
     color: white;
