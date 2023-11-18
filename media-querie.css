@@ -1,11 +1,17 @@
 
 @media screen and (max-width: 1044px) {
+
     .paralaxe03 {
         justify-content: center;
     }
 
     .caixa__central--botao {
         padding-left: 0px;
+    }
+
+    .caixa__texto {
+        margin-left: 300px;
+        padding: 50px;
     }
 
     .swiper {
@@ -23,7 +29,8 @@
 @media screen and (max-width: 760px) {
 
     .caixa__texto {
-        margin-left: 100px;
+        margin-left: 200px;
+        padding: 30px;
     }
 
     .coluna__esquerda {
@@ -32,6 +39,7 @@
 
     .coluna__direita--botao {
         margin-left: 0px;
+        padding: 20px;
     }
 
     .caixa__principal > article {
@@ -43,4 +51,22 @@
         width: 160px;
         height: 160px;
      }
+}
+
+@media screen and (max-width: 679px) {
+
+    .caixa__principal > article {
+        min-height: 290px;
+        max-width: 340px;
+        margin: .6px;
+        padding: 1dvh;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .caixa__texto {
+        margin-left: 75px;
+        padding: 0px;
+    }
 }
