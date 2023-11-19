@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Template</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-querie.css">
@@ -20,7 +20,7 @@
                 <br>
                 <br>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit eligendi alias qui repellendus, voluptas soluta ipsa cupiditate nobis placeat dignissimos! Inventore deleniti velit excepturi fugiat explicabo dolorum animi delectus quos!</p>
-                <a href="#pagina2"><button class="explorar">Explorar...</button></a>
+                <a href="#"><button id="navegarPagina2" class="explorar">Explorar...</button></a>
             </article>
         </section>
     </div>
@@ -35,7 +35,7 @@
             <article class="coluna__direita--botao">
                 <h2>Coluna direita</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a odio molestias, corrupti illum quod commodi ut non qui temporibus alias deserunt id quo quia numquam dolores.</p>
-                <a href="#pagina3"><button class="detalhes">Detalhes...</button></a>
+                <a href="#"><button id="navegarPagina3" class="detalhes">Detalhes...</button></a>
             </article>       
         </section>
     </div>
@@ -47,7 +47,7 @@
                <article class="caixa__paragrafo">
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id placeat suscipit quaerat explicabo harum eos! Molestias, error quo. Illum, sunt quas ex eveniet consequuntur possimus quae soluta voluptate eligendi?Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                </article>
-               <a href="#pagina4"><button class="informacoes">Consulte informações</button></a>   
+               <a href="#"><button id="navegarPagina4" class="informacoes">Consulte informações</button></a>   
         </section>
     </div>
     <div id="pagina4" class="paralaxe04">
@@ -90,35 +90,37 @@
     </div>
     <div class="paralaxe06">       
         <div class="formulario">
+            <h2 class="contato">Contate-nos</h2>
             <div class="formulario__flex">
-                <form>
-                    <h2>Contate-nos</h2>
+                <form>                   
                     <div class="campo">
-                        <input type="text" name="name" id="iname" placeholder="Nome" required>
+                        <input type="text" name="name" id="inome" placeholder="Nome" required>
                     </div>
                     <div class="campo">
                         <input type="email" name="contato_email" id="iemail" placeholder="Email" required>
                     </div>
                     <div class="mensagem">
-                        <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                        <textarea id="imensagem" name="message" placeholder="Mensagem" required></textarea>
                     </div>
                     <button type="submit" class="entrar">Entrar</button>
                 </form>
                 <div class="coluna__texto">
                     <article>
-                        <p class="direita__texto">Please visit <a href="https://www.tooplate.com/contact" target="_blank">our contact page</a> for more information about simple contact form to send email to your inbox. Maecenas condimentum tincidunt leo. Paesent scelerisque erat placerat tempus laoreet.</p>
+                        <p>Please visit <a href="https://www.tooplate.com/contact" target="_blank">our contact page</a> for more information about simple contact form to send email to your inbox. Maecenas condimentum tincidunt leo. Paesent scelerisque erat placerat tempus laoreet.</p>
                     </article>
                     <article>
                         <p class="endereco">Nosso endereço</p>
                     </article>
                     <article>
-                        <p class="direita__texto">440-660 Proin mauris enim, dignissim sit amet ligula id, finibus tempus erat 10200</p>
+                        <p>440-660 Proin mauris enim,</p>
+                        <p>dignissim sit amet ligula id,</p>
+                        <p>finibus tempus erat 10200</p>
                     </article>
                 </div>
             </div>
         </div>
         <footer>
-            <p>Copyright 2018 Your Company. Designed by</p>
+            <p>Copyright 2018 Your Company. Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
         </footer>
     </div>
     
