@@ -63,6 +63,10 @@ h1 {
     background-color: #C66666;
 }
 
+.explorar:hover {
+    background-color: #dc3545;
+}
+
 button {
     cursor: pointer;
 }
@@ -123,6 +127,10 @@ button {
     background-color: #C66666;
 }
 
+.detalhes:hover {
+    background-color: #dc3545;
+}
+
 .paralaxe03 {
     display: flex;
     flex-direction: column;
@@ -170,6 +178,10 @@ button {
     font-size: 24px;
     color: white;
     background-color: #C66666;
+}
+
+.informacoes:hover {
+    background-color: #dc3545;
 }
 
 .paralaxe04 {
@@ -249,8 +261,8 @@ button {
 }
 
 .contato {
-    padding-left: 155px;
-    width: 100%;
+    display: flex;
+    width: 1000px;
 }
 
 .formulario {
@@ -276,9 +288,19 @@ form {
     height: 356px;
 }
 
+.campo > input {
+    font-size: .8em;
+    padding-left: 10px;
+}
+
+.mensagem > textarea {
+    font-size: .8em;
+    padding-left: 10px;
+}
+
 #inome {
     margin-top: 20px;
-    width: 310px;
+    width: 90%;
     height: 30px;
     background-color: #ffffffc4;
     border: 1px solid #ced4da;
@@ -286,7 +308,7 @@ form {
 
 #iemail {
     margin-top: 20px;
-    width: 310px;
+    width: 90%;
     height: 30px;
     background-color: #ffffffc4;
     border: 1px solid #ced4da;
@@ -294,14 +316,16 @@ form {
 
 #imensagem {
     margin-top: 20px;
-    width: 310px;
+    width: 90%;
     height: 140px;
     background-color: #ffffffc4;
     border: 1px solid #ced4da;
 }
 
 .coluna__texto {
-    width: 670px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    max-width: 670px;
     height: 272px;
     color: white;
 }
@@ -318,8 +342,24 @@ form {
     background-color: #C66666;
 }
 
+.entrar:hover {
+    background-color: #dc3545;
+    cursor: default;
+}
+
+.tooplate {
+    text-decoration: none;
+    color: white;
+}
+
+.tooplate:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
 .endereco {
     padding: 30px 0px;
+    font-weight: bold;
 }
 
 footer {

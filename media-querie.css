@@ -24,6 +24,13 @@
        height: 200px;
     }
 
+    .contato {
+        width: 760px;
+    }
+
+    .entrar {
+        margin-left: 80px;
+    }
 }
 
 @media screen and (max-width: 760px) {
@@ -51,6 +58,17 @@
         width: 160px;
         height: 160px;
      }
+
+     .contato {
+        width: 510px;
+    }
+
+    .entrar {
+        margin-left: 0px;
+        width: 100px;
+        height: 38px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 679px) {
@@ -68,5 +86,19 @@
     .caixa__texto {
         margin-left: 75px;
         padding: 0px;
+    }
+
+    .contato {
+        width: 300px;
+    }
+
+    form {
+        width: 220px;
+    }
+
+    .coluna__texto {
+        padding-left: 10px;
+        max-width: 150px;
+        font-size: 15px;
     }
 }
