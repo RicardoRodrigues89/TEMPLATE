@@ -12,7 +12,7 @@ body, html {
 .paralaxe01 {
     display: flex;
     align-content: center;
-    background-image: url(imagens/bg-img-01.jpg);
+    background-image: url(/imagens/bg-img-01.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -73,7 +73,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imagens/bg-img-02.jpg);
+    background-image: url(/imagens/bg-img-02.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -133,7 +133,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(imagens/bg-img-03.jpg);
+    background-image: url(/imagens/bg-img-03.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -186,7 +186,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(imagens/bg-img-04.jpg);
+    background-image: url(/imagens/bg-img-04.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -225,7 +225,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(imagens/bg-img-05.jpg);
+    background-image: url(/imagens/bg-img-05.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -243,7 +243,7 @@ button {
 }
 
 .paralaxe06 {
-    background-image: url(imagens/bg-img-06.jpg);
+    background-image: url(/imagens/bg-img-06.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
