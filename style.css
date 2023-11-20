@@ -7,9 +7,7 @@ body, html {
     font-weight: 300;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 .paralaxe01 {
     display: flex;
@@ -198,19 +196,17 @@ button {
 
 .caixa__principal {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
 }
 
 .caixa__principal > article {
     min-height: 375px;
-    max-width: 340px;
+    max-width: calc(33.33% - 40px); 
     margin: 20px;
     padding: 40px;
     background-color: #ffffffc4;
-
 }
 
 .titulo__verde {
